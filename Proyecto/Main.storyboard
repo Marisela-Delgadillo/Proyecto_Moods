@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
-        <array key="GROBOLD.ttf">
-            <string>GROBOLD</string>
+        <array key="Nectarine DEMO.ttf">
+            <string>NectarineDEMO-Regular</string>
         </array>
     </customFonts>
     <scenes>
@@ -23,56 +23,58 @@
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="aSz-NA-LNS">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rays" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="hCX-Fm-iz7">
-                                <rect key="frame" x="10" y="78" width="356.33333333333331" height="324.66666666666669"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="viewfinder.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="hCX-Fm-iz7">
+                                <rect key="frame" x="10" y="88" width="356.33333333333331" height="323.33333333333337"/>
                                 <color key="tintColor" systemColor="systemGrayColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                             <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Flor_feliz1" translatesAutoresizingMaskIntoConstraints="NO" id="P2u-tl-U2d">
-                                <rect key="frame" x="10" y="444.66666666666669" width="174.66666666666666" height="162.66666666666669"/>
+                                <rect key="frame" x="10" y="446.66666666666669" width="174.66666666666666" height="162.66666666666669"/>
                                 <gestureRecognizers/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="odK-SY-JGt" appends="YES" id="3lO-vW-aoH"/>
                                 </connections>
                             </imageView>
                             <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Flor_triste1" translatesAutoresizingMaskIntoConstraints="NO" id="U93-1o-DVR">
-                                <rect key="frame" x="190.33333333333337" y="444.66666666666669" width="174.66666666666663" height="162.66666666666669"/>
+                                <rect key="frame" x="190.33333333333337" y="446.66666666666669" width="174.66666666666663" height="162.66666666666669"/>
                                 <gestureRecognizers/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="BjJ-2R-BcE" appends="YES" id="Xlz-Vg-a5k"/>
                                 </connections>
                             </imageView>
                             <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Flor_enojado1" translatesAutoresizingMaskIntoConstraints="NO" id="B6D-n4-ol4">
-                                <rect key="frame" x="10" y="613.33333333333337" width="174.66666666666666" height="162.33333333333337"/>
+                                <rect key="frame" x="10" y="615.33333333333337" width="174.66666666666666" height="162.33333333333337"/>
                                 <gestureRecognizers/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="uod-1H-ubw" appends="YES" id="BLz-1Y-yiF"/>
                                 </connections>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Moods" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BUW-kq-twl">
-                                <rect key="frame" x="0.0" y="44" width="375" height="24"/>
-                                <fontDescription key="fontDescription" name="GROBOLD" family="GROBOLD" pointSize="24"/>
+                                <rect key="frame" x="0.0" y="44" width="375" height="33"/>
+                                <fontDescription key="fontDescription" name="NectarineDEMO-Regular" family="Nectarine DEMO" pointSize="33"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="yf7-cc-Cje">
-                                <rect key="frame" x="599" y="189.66666666666666" width="203" height="123.99999999999997"/>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Flor_enamorada1" translatesAutoresizingMaskIntoConstraints="NO" id="yf7-cc-Cje">
+                                <rect key="frame" x="599" y="184.66666666666666" width="203" height="123.99999999999997"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Po0-na-xVO" appends="YES" id="7B8-uI-h6G"/>
+                                </connections>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mood" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jaq-NM-T71">
-                                <rect key="frame" x="0.0" y="408.66666666666669" width="375" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select a flower" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jaq-NM-T71">
+                                <rect key="frame" x="0.0" y="417.66666666666669" width="375" height="23"/>
+                                <fontDescription key="fontDescription" name="NectarineDEMO-Regular" family="Nectarine DEMO" pointSize="23"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Flor_enamorada1" translatesAutoresizingMaskIntoConstraints="NO" id="6Z6-gn-vHZ">
-                                <rect key="frame" x="190.33333333333337" y="613.33333333333337" width="174.66666666666663" height="162.33333333333337"/>
+                                <rect key="frame" x="190.33333333333337" y="615.33333333333337" width="174.66666666666663" height="162.33333333333337"/>
                                 <gestureRecognizers/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="IDF-yA-AzT" appends="YES" id="0jT-ct-1lh"/>
                                 </connections>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Qh8-28-dx5">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="37"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -84,13 +86,11 @@
                             <constraint firstItem="B6D-n4-ol4" firstAttribute="top" secondItem="P2u-tl-U2d" secondAttribute="bottom" constant="14.666666666666657" id="5vM-fA-KP3">
                                 <variation key="heightClass=compact" constant="5"/>
                             </constraint>
-                            <constraint firstItem="Qh8-28-dx5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="7eK-3c-txe"/>
                             <constraint firstItem="6Z6-gn-vHZ" firstAttribute="leading" secondItem="B6D-n4-ol4" secondAttribute="trailing" constant="4.3333333333333712" id="7ra-fm-Zm8">
                                 <variation key="heightClass=compact" constant="0.0"/>
                             </constraint>
                             <constraint firstItem="U93-1o-DVR" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.2" id="88e-ad-6VG"/>
                             <constraint firstItem="6Z6-gn-vHZ" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="8PP-Mf-vre"/>
-                            <constraint firstAttribute="trailing" secondItem="Qh8-28-dx5" secondAttribute="trailing" id="904-zO-GOu"/>
                             <constraint firstItem="aSz-NA-LNS" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Ahr-eD-hsY"/>
                             <constraint firstItem="aSz-NA-LNS" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="D7j-N2-C0S"/>
                             <constraint firstItem="yf7-cc-Cje" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.25" id="DGp-JO-ao5"/>
@@ -126,7 +126,6 @@
                                 <variation key="heightClass=compact" constant="5"/>
                             </constraint>
                             <constraint firstItem="6Z6-gn-vHZ" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.25" id="Xxq-Ws-evr"/>
-                            <constraint firstItem="BUW-kq-twl" firstAttribute="top" secondItem="Qh8-28-dx5" secondAttribute="bottom" constant="7" id="Y69-Mx-EkN"/>
                             <constraint firstItem="U93-1o-DVR" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.35" id="boF-Bq-Y4X"/>
                             <constraint firstItem="6Z6-gn-vHZ" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.32" id="btT-RK-12a"/>
                             <constraint firstAttribute="trailing" secondItem="U93-1o-DVR" secondAttribute="trailing" id="cdG-8T-YOi">
@@ -136,7 +135,6 @@
                                 <variation key="heightClass=compact" constant="10"/>
                             </constraint>
                             <constraint firstItem="B6D-n4-ol4" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.466" id="dE6-KD-7S4"/>
-                            <constraint firstItem="Qh8-28-dx5" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="dkG-NG-LOc"/>
                             <constraint firstItem="hCX-Fm-iz7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="gBL-Me-pa4">
                                 <variation key="heightClass=regular" constant="10"/>
                             </constraint>
@@ -160,7 +158,7 @@
                             <constraint firstItem="B6D-n4-ol4" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.33" id="n9t-o0-kkx"/>
                             <constraint firstItem="yf7-cc-Cje" firstAttribute="top" secondItem="U93-1o-DVR" secondAttribute="bottom" constant="7.5" id="nnf-Lq-Cum"/>
                             <constraint firstAttribute="top" secondItem="aSz-NA-LNS" secondAttribute="top" id="oFY-RV-SSt"/>
-                            <constraint firstItem="BUW-kq-twl" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="oLF-IP-Hhv"/>
+                            <constraint firstItem="BUW-kq-twl" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="5" id="oLF-IP-Hhv"/>
                             <constraint firstItem="hCX-Fm-iz7" firstAttribute="top" secondItem="BUW-kq-twl" secondAttribute="bottom" constant="10" id="pQ9-uc-O3A"/>
                             <constraint firstItem="hCX-Fm-iz7" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.95" id="qeu-eD-wOO"/>
                             <constraint firstItem="aSz-NA-LNS" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="qpN-b7-jyM"/>
@@ -313,7 +311,11 @@
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="imgAngry" destination="B6D-n4-ol4" id="qy7-1w-pr1"/>
                         <outlet property="imgHappy" destination="P2u-tl-U2d" id="Phf-Ou-O1v"/>
+                        <outlet property="imgInLove" destination="6Z6-gn-vHZ" id="eDe-oE-DVW"/>
+                        <outlet property="imgInLove2" destination="yf7-cc-Cje" id="Z1M-4z-xez"/>
+                        <outlet property="imgMood" destination="hCX-Fm-iz7" id="Ahf-Gf-n5V"/>
                         <outlet property="imgSad" destination="U93-1o-DVR" id="Ll8-Rk-II1"/>
                         <outlet property="lblMood" destination="Jaq-NM-T71" id="92S-oq-eg7"/>
                     </connections>
@@ -339,8 +341,9 @@
                         <action selector="doTapInLove:" destination="BYZ-38-t0r" id="Zwa-PI-zYM"/>
                     </connections>
                 </tapGestureRecognizer>
+                <tapGestureRecognizer id="Po0-na-xVO" userLabel="tapInLove2"/>
             </objects>
-            <point key="canvasLocation" x="126" y="133"/>
+            <point key="canvasLocation" x="125.59999999999999" y="132.26600985221674"/>
         </scene>
     </scenes>
     <resources>
@@ -348,6 +351,6 @@
         <image name="Flor_enojado1" width="1080" height="1080"/>
         <image name="Flor_feliz1" width="1080" height="1080"/>
         <image name="Flor_triste1" width="1080" height="1080"/>
-        <image name="rays" catalog="system" width="64" height="60"/>
+        <image name="viewfinder.circle" catalog="system" width="64" height="60"/>
     </resources>
 </document>

@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -11,15 +13,76 @@
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TLP-G2-ssJ">
+                                <rect key="frame" x="0.0" y="0.0" width="896" height="896"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Flor_feliz1" translatesAutoresizingMaskIntoConstraints="NO" id="8Et-ZN-RHb">
+                                <rect key="frame" x="132" y="373" width="150" height="150"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="TLP-G2-ssJ" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" id="0c6-kd-bPP"/>
+                            <constraint firstItem="TLP-G2-ssJ" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="64R-Ej-R3v"/>
+                            <constraint firstItem="8Et-ZN-RHb" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.591667" id="94x-Jg-toi"/>
+                            <constraint firstItem="8Et-ZN-RHb" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="0.167411" id="BjH-0N-k37"/>
+                            <constraint firstItem="TLP-G2-ssJ" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" id="C5J-oL-WAj"/>
+                            <constraint firstItem="8Et-ZN-RHb" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="0.271875" id="CLI-5g-jMs"/>
+                            <constraint firstItem="8Et-ZN-RHb" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="JC4-Yc-as7"/>
+                            <constraint firstItem="TLP-G2-ssJ" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" id="Kr5-y7-zTr"/>
+                            <constraint firstItem="TLP-G2-ssJ" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="LLt-q6-uZZ"/>
+                            <constraint firstItem="8Et-ZN-RHb" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.362319" id="MoI-se-kHQ"/>
+                            <constraint firstItem="TLP-G2-ssJ" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="PdS-rf-OCx"/>
+                            <constraint firstItem="8Et-ZN-RHb" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="T12-50-WCH"/>
+                            <constraint firstItem="TLP-G2-ssJ" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="V20-oT-4e2">
+                                <variation key="heightClass=compact" constant="0.0"/>
+                            </constraint>
+                            <constraint firstItem="8Et-ZN-RHb" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Y1Y-AI-wpq"/>
+                            <constraint firstItem="8Et-ZN-RHb" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="tnu-1Y-IMH"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="0c6-kd-bPP"/>
+                                <exclude reference="Kr5-y7-zTr"/>
+                                <exclude reference="PdS-rf-OCx"/>
+                                <exclude reference="V20-oT-4e2"/>
+                                <exclude reference="94x-Jg-toi"/>
+                                <exclude reference="CLI-5g-jMs"/>
+                                <exclude reference="JC4-Yc-as7"/>
+                                <exclude reference="Y1Y-AI-wpq"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact">
+                            <mask key="constraints">
+                                <include reference="0c6-kd-bPP"/>
+                                <exclude reference="64R-Ej-R3v"/>
+                                <exclude reference="C5J-oL-WAj"/>
+                                <include reference="Kr5-y7-zTr"/>
+                                <exclude reference="LLt-q6-uZZ"/>
+                                <include reference="PdS-rf-OCx"/>
+                                <include reference="V20-oT-4e2"/>
+                                <include reference="94x-Jg-toi"/>
+                                <exclude reference="BjH-0N-k37"/>
+                                <include reference="CLI-5g-jMs"/>
+                                <include reference="JC4-Yc-as7"/>
+                                <exclude reference="MoI-se-kHQ"/>
+                                <exclude reference="T12-50-WCH"/>
+                                <include reference="Y1Y-AI-wpq"/>
+                                <exclude reference="tnu-1Y-IMH"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="51.25" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Flor_feliz1" width="1080" height="1080"/>
+    </resources>
 </document>
